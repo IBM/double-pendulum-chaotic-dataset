@@ -21,17 +21,28 @@ The dataset is released under the [CDLA Sharing Version 1.0](https://cdla.io/sha
 <br>
 <br>
 
-## Download links
+## Download
 
+The dataset is available on [IBM's Data Asset eXchange (DAX)](https://developer.ibm.com/exchanges/data/all/double-pendulum-chaotic/).
+
+It contains:
 - Original videos (uncut)
-  - CSV files with the positions:<br>
-    &emsp;[dpc_dataset_csv.tar.bz2](https://openwhisk.ng.bluemix.net/api/v1/web/Double%20pendulum%20chaotic%20dataset_dev/default/download?id=dpc_dataset_csv.tar.bz2) [2MiB]
-  - h264 compressed video:<br>
-    &emsp;[dpc_dataset_h264.tar](https://openwhisk.ng.bluemix.net/api/v1/web/Double%20pendulum%20chaotic%20dataset_dev/default/download?id=dpc_dataset_h264.tar) [285MiB]
+  - CSV files with the positions
+  - h264 compressed video
 ^
 - Dataset with train / test (4 frames input, 200 frames prediction), generated from the original videos.
-  - CSV files with the positions:<br>
-    &emsp;[dpc_dataset_traintest_4_200_csv.tar.bz2](https://openwhisk.ng.bluemix.net/api/v1/web/Double%20pendulum%20chaotic%20dataset_dev/default/download?id=dpc_dataset_traintest_4_200_csv.tar.bz2) [2MiB]
-  - h264 compressed video:<br>
-    &emsp;[pc_dataset_traintest_4_200_h264.tar](https://openwhisk.ng.bluemix.net/api/v1/web/Double%20pendulum%20chaotic%20dataset_dev/default/download?id=dpc_dataset_traintest_4_200_h264.tar) [281MiB]
+  - CSV files with the positions
+  - h264 compressed video
 
+## Citation
+
+```
+@InProceedings{asseman2018learning,
+title={Learning beyond simulated physics},
+author={Asseman, Alexis and Kornuta, Tomasz and Ozcan, Ahmet},
+year={2018}
+maintitle={Neural Information Processing Systems},
+booktitle={Modeling and Decision-making in the Spatiotemporal Domain Workshop},
+url={https://openreview.net/pdf?id=HylajWsRF7},
+}
+```
